@@ -64,7 +64,7 @@ python train.py --config ./config/lightx2.yml
 
 You may convert a trained model into the inference-time structure with
 ```
-python convert.py [weights file of the training-time model to load] [path to save] -a [architecture name]
+python convert.py [weights file of the training-time model to load] [path to save] --arch 'LIPT' --config [path to config]
 ```
 
 ## Test
