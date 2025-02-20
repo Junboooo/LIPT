@@ -1,0 +1,37 @@
+model: 'iptv3'
+## parameters for plain
+scale: 2
+rgb_range: 255
+colors: 3
+m_elan: 22
+c_elan: 144
+n_share: 0
+r_expand: 1
+act_type: 'relu'
+window_sizes: [16,16]
+deploy: False
+pretrain:  #'/home/ma-user/modelarts/user-job-dir/LIPT/experiments/pre/model_x2_110.pt'
+#python train.py --config ./configs/elan_light_x4.yml
+## parameters for model training
+patch_size: 96
+batch_size: 48
+data_repeat: 80 #80 #800 #3450   #64000 #69000
+data_augment: 1
+
+epochs: 600
+lr: 0.0001
+decays: [100, 200, 300, 375, 400]
+gamma: 0.5
+log_every: 100
+test_every: 1
+log_path: "./experiments"
+log_name:
+
+## hardware specification
+gpu_ids: [0,1,2,3,4,5,6,7]
+threads: 1
+
+## data specification
+data_path: '/home/ma-user/modelarts/user-job-dir/LIPT/dataset'
+data_test_path: '/home/ma-user/modelarts/user-job-dir/LIPT/Benchmark_SR/'
+eval_sets: ['Set5', 'Set14', 'B100', 'Urban100', 'Manga109']
