@@ -53,7 +53,26 @@ Used training and testing sets can be downloaded as follows:
 ## Training
 ```
 cd LIPT
+python train.py --config [path to config]
+```
+For example,
+```
 python train.py --config ./config/lightx2.yml
+```
+
+## Convert the training-time models into inference-time
+
+You may convert a trained model into the inference-time structure with
+```
+python convert.py [weights file of the training-time model to load] [path to save] -a [architecture name]
+```
+
+## Test
+
+Run the following script to test the converted model with deploy==True:
+
+```
+python test.py --config [path to config]
 ```
 
 ## Results
@@ -88,3 +107,8 @@ If LIPT helps your research or work, please consider citing the following works:
   year={2024}
 }
 ```
+
+## Acknowledgement
+
+This work is released under the Apache 2.0 license.
+ The codes are based on [BasicSR](https://github.com/xinntao/BasicSR), [ELAN](https://github.com/xindongzhang/ELAN) and [DBB](https://github.com/xindongzhang/ELAN) Please also follow their licenses. Thanks for their awesome works.
