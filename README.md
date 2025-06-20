@@ -1,6 +1,23 @@
 # LIPT: Latency-aware Image Processing Transformer
 
-Codes for "LIPT: Latency-aware Image Processing Transformer", [arxiv link](https://arxiv.org/abs/2404.06075).
+Codes for "LIPT: Latency-aware Image Processing Transformer"
+
+
+
+  <a href="https://arxiv.org/abs/2404.06075">
+    <img
+      src="https://img.shields.io/badge/LIPT-Arxiv-red?logo=arxiv&logoColor=red"
+      alt="LIPT Paper on arXiv"
+    />
+   </a>
+
+  <a href="https://arxiv.org/abs/2505.14683">
+    <img
+      src="https://img.shields.io/badge/LIPT-TIP-blue?logo=arxiv&logoColor=blue"
+      alt="BAGEL Paper on TIP"
+    />
+  </a>
+
 
 
 > **LIPT: Latency-aware Image Processing Transformer** <br>
@@ -27,6 +44,7 @@ Transformer is leading a trend in the field of image processing. While existing 
 ![LIPT](./figs/LIPT.png)
 
 ## News
+- [2025.04] 🚩Accepted by IEEE Transactions on Image Processing.
 - [2025.02] Training codes is released.
 
 ## Dependencies & Installation
