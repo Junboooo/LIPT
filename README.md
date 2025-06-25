@@ -118,12 +118,16 @@ If LIPT helps your research or work, please consider citing the following works:
 
 ----------
 ```BibTex
-@inproceedings{qiao2024lipt,
-  title={LIPT: Latency-aware Image Processing Transformer},
+@ARTICLE{11008483,
   author={Qiao, Junbo and Li, Wei and Xie, Haizhen and Chen, Hanting and Hu, Jie and Lin, Shaohui and Han, Jungong},
-  booktitle={arXiv preprint arXiv:2404.06075},
-  year={2024}
-}
+  journal={IEEE Transactions on Image Processing}, 
+  title={LIPT: Latency-Aware Image Processing Transformer}, 
+  year={2025},
+  volume={34},
+  number={},
+  pages={3056-3069},
+  keywords={Transformers;Image processing;Image reconstruction;Feature extraction;Computational modeling;Image restoration;Computer architecture;Nonvolatile memory;Graphics processing units;Adaptation models;Image processing;non-volatile sampling mask;transformer;reparameterization},
+  doi={10.1109/TIP.2025.3567832}}
 ```
 
 ## Acknowledgement
