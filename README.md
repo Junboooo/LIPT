@@ -11,7 +11,7 @@ Codes for "LIPT: Latency-aware Image Processing Transformer"
     />
    </a>
 
-  <a href="https://arxiv.org/abs/2505.14683">
+  <a href="https://ieeexplore.ieee.org/document/11008483/">
     <img
       src="https://img.shields.io/badge/LIPT-TIP-blue?logo=arxiv&logoColor=blue"
       alt="BAGEL Paper on TIP"
